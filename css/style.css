@@ -21,14 +21,12 @@ body {
 
 #navbar__title {
   margin: 0 auto;
-  width: 200px;
-  text-align: center;
+  width: 250px;
 }
 
 .navbar {
   margin: 0 auto;
   width: 980px;
-  padding-top: 40px;
 }
 
 .navbar__item a {
@@ -71,8 +69,8 @@ body {
 }
 
 #logo-container {
-  padding-top: 40px;
-  width: 216px;
+  padding-top: 30px;
+  width: 250px;
   font-size: 35pt;
   font-family: 'Monea Alegante';
   font-weight: 100;
@@ -101,13 +99,13 @@ body {
 .logo:hover {
   transform: rotate(-90deg);
   transition: all 0.5s ease-out;
-  filter: brightness(180%);
+  filter: brightness(150%);
 }
 
 
 
 .slice-container {
-  padding: 55px;
+  padding-top: 55px;
 
 }
 .slices {
