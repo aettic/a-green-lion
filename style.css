@@ -1,0 +1,186 @@
+#container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+
+@font-face {
+  font-family: 'Monea Alegante';
+  src: url('monea_alegante-webfont.woff2') format('woff2'),
+       url('monea_alegante-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+#navbar__title {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 40px;
+}
+
+.navbar__item a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Abel', sans-serif;
+  font-size: 14pt;
+  transition: color 0.2s ease;
+}
+.navbar__item a:hover {
+  text-decoration: none;
+  color: darkgray;
+  transition: color 0.2s ease;
+}
+
+
+.navbar__container {
+  width: 100%;
+}
+
+.navbar__item {
+  float: left;
+  width: 150px;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar__item ul li {
+  text-decoration: none;
+  align-items: left;
+}
+
+
+
+.logo {
+  margin: 0 auto;
+  width: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+#logo-container {
+  padding-top: 40px;
+  width: 216px;
+  font-size: 35pt;
+  font-family: 'Monea Alegante';
+  font-weight: 100;
+  margin: 0 auto;
+}
+#logo-container a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+#logo-container a:hover {
+  text-decoration: none;
+  color: #666666;
+  transition: all 0.3s ease;
+}
+
+#logo-box {
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+}
+.logo {
+  transition: all 0.5s ease-in;
+}
+.logo:hover {
+  transform: rotate(-90deg);
+  transition: all 0.5s ease-out;
+  filter: brightness(150%);
+}
+
+
+
+.slice-container {
+  padding: 55px;
+
+}
+.slices {
+  padding: 0px;
+  margin: 0 auto;
+  width: 900px;
+  height: 250px;
+}
+
+.slice {
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 250px;
+  float: left;
+  background-repeat: none;
+  transition: all 0.2s ease-out;
+}
+.slice:hover, .slice:active {
+  transition: all 0.2s ease-out;
+  transform: translateY(-20px);
+}
+.slice:active {
+  transition: all 0.2s ease-out;
+  transform: translateY(-20px);
+}
+
+#slice-1 {
+  float: left;
+  filter: brightness(100%);
+}
+#slice-1:hover {
+  filter: brightness(110%);
+  transition: all 0.2s ease-out;
+}
+
+#slice-2 {
+  float: left;
+  filter: brightness(90%);
+}
+#slice-2:hover {
+  filter: brightness(100%);
+  transition: all 0.2s ease-out;
+}
+
+#slice-3 {
+  float: left;
+  filter: brightness(82%);
+}
+#slice-3:hover {
+  filter: brightness(92%);
+  transition: all 0.2s ease-out;
+}
+
+#slice-4 {
+  float: left;
+  filter: brightness(76%);
+}
+#slice-4:hover {
+  filter: brightness(86%);
+  transition: all 0.2s ease-out;
+}
+
+#slice-5 {
+  float: left;
+  filter: brightness(70%);
+}
+#slice-5:hover {
+  filter: brightness(80%);
+  transition: all 0.2s ease-out;
+}
+
+#slice-6 {
+  float: left;
+  filter: brightness(65%);
+}
+#slice-6:hover {
+  filter: brightness(75%);
+  transition: all 0.2s ease-out;
+}
