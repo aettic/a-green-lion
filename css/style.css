@@ -1,3 +1,7 @@
+body {
+  font-family: 'Abel', sans-serif;
+}
+
 #container {
   max-width: 900px;
   margin: 0 auto;
@@ -97,7 +101,7 @@
 .logo:hover {
   transform: rotate(-90deg);
   transition: all 0.5s ease-out;
-  filter: brightness(150%);
+  filter: brightness(180%);
 }
 
 
@@ -136,7 +140,7 @@
   filter: brightness(100%);
 }
 #slice-1:hover {
-  filter: brightness(110%);
+  filter: brightness(115%);
   transition: all 0.2s ease-out;
 }
 
@@ -145,7 +149,7 @@
   filter: brightness(90%);
 }
 #slice-2:hover {
-  filter: brightness(100%);
+  filter: brightness(105%);
   transition: all 0.2s ease-out;
 }
 
@@ -154,33 +158,33 @@
   filter: brightness(82%);
 }
 #slice-3:hover {
-  filter: brightness(92%);
+  filter: brightness(97%);
   transition: all 0.2s ease-out;
 }
 
 #slice-4 {
   float: left;
-  filter: brightness(76%);
+  filter: brightness(75%);
 }
 #slice-4:hover {
-  filter: brightness(86%);
+  filter: brightness(91%);
   transition: all 0.2s ease-out;
 }
 
 #slice-5 {
   float: left;
-  filter: brightness(70%);
+  filter: brightness(68%);
 }
 #slice-5:hover {
-  filter: brightness(80%);
+  filter: brightness(85%);
   transition: all 0.2s ease-out;
 }
 
 #slice-6 {
   float: left;
-  filter: brightness(65%);
+  filter: brightness(60%);
 }
 #slice-6:hover {
-  filter: brightness(75%);
+  filter: brightness(80%);
   transition: all 0.2s ease-out;
 }
